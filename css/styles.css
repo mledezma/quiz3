@@ -37,7 +37,6 @@
     display: table;
     left: 0;
     position: absolute;
-    box-sizing: content-box;
 }
 
 .nav li:hover ul li {
@@ -51,7 +50,6 @@
 }
 
 .nav li:hover ul a {
-    display: table-cell;
     padding: 0;
 }
 
